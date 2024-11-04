@@ -1,0 +1,45 @@
+.pokemon-table {
+    width: 80%; 
+    max-width: 600px; 
+    margin: 0 auto;
+    border-collapse: collapse;
+    
+    .header-cell {
+        background-color: #ffcc00;
+        color: #333;
+        font-weight: bold;
+        font-size: 1.2rem;
+        padding: 12px; 
+        text-align: left;
+    }
+
+    .cell {
+        background-color: #fff; 
+        padding: 12px;
+        border-bottom: 1px solid #e0e0e0;
+        
+        &:last-child {
+            border-bottom: none; 
+        }
+    }
+
+    .pokemon-link {
+        color: #d52b1e; 
+        text-decoration: none;
+        transition: color 0.3s;
+
+        &:hover {
+            color: #ff4500; 
+        }
+    }
+
+    .favorite-button {
+        margin-left: 10px;
+        color: #d52b1e;
+        transition: color 0.3s;
+
+        &:hover {
+            color: #ff4500; 
+        }
+    }
+}
