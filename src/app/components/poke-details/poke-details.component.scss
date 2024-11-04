@@ -10,7 +10,7 @@
     .pokemon-name {
       font-size: 2rem;
       font-weight: bold;
-      color: #f93c3c; 
+      color:black; 
       margin-bottom: 20px;
     }
   
@@ -49,6 +49,8 @@
         .ability-item,
         .game-item {
           background-color: #f3f3f3; 
+          font-weight: bold;
+          font-family: 'Poppins';
           margin: 5px 0; 
           padding: 10px;
           border-radius: 5px; 

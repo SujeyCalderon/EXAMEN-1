@@ -5,7 +5,7 @@
     border-collapse: collapse;
     
     .header-cell {
-        background-color: #ffcc00;
+        background-color: #000000;
         color: #333;
         font-weight: bold;
         font-size: 1.2rem;
@@ -24,13 +24,19 @@
     }
 
     .pokemon-link {
-        color: #d52b1e; 
+        color: #000000; 
         text-decoration: none;
         transition: color 0.3s;
-
+        font-family: 'Poppins', sans-serif;
+        font-size: 24px;
+        margin-left: 50px;
+        cursor: pointer;
+        font-weight: bold;
         &:hover {
             color: #ff4500; 
         }
+
+    
     }
 
     .favorite-button {
@@ -42,4 +48,8 @@
             color: #ff4500; 
         }
     }
+}
+
+.icono-otro {
+    text-align: center;
 }
